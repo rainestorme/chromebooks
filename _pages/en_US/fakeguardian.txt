@@ -101,7 +101,6 @@ Do note the following information:
 - We don't yet know if the administrator/teacher can see that you've installed a fake extension or that you're visiting blocked websites. **Use at your own risk.**
 - Certain websites may still be blocked by the extension for an unknown reason, possibly cached data or custom client-side logic.
 - The extension will not be updated automatically, so you'll need to repeat the process if the extension is updated.
-
 {: .notice--primary}
 
 Yoi're almost there! Continue to [Finalizing Setup](finalizing-setup) to finish! 
