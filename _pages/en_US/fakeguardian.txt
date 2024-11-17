@@ -103,3 +103,6 @@ Do note the following information:
 - The extension will not be updated automatically, so you'll need to repeat the process if the extension is updated.
 
 {: .notice--primary}
+
+Yoi're almost there! Continue to [Finalizing Setup](finalizing-setup) to finish! 
+{:. notice--success} 
