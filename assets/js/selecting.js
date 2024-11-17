@@ -64,9 +64,9 @@ function redirect() {
   var waysToRoot = canRootBoard(document.getElementById("board").value);
   console.log(waysToRoot);
   if (waysToRoot.includes("SH1mmer") && document.getElementById("curVersion").value >= 111) {
-    window.location.href = "https://xytrux.github.io/badrecovery";
+    window.location.href = "https://chromebook-hacks.github.io/badrecovery";
   } else if (document.getElementById("curVersion").value >= 112) {
-    window.location.href = "https://xytrux.github.io/badrecovery"
+    window.location.href = "https://chromebook-hacks.github.io/badrecovery"
   }
   if (document.getElementById(curVersion).value >= 125) {
     alert("Wait for ICARUS.")
@@ -74,16 +74,16 @@ function redirect() {
     alert("No exploits are availiable for your version yet.");
   }
   if (waysToRoot.includes("80")) {
-    window.location.href = "https://xytrux.github.io/v81";
+    window.location.href = "https://chromebook-hacks.github.io/v81";
   } else if (waysToRoot.includes("SH1mmer")) {
     // v81 provides more options then sh1mmer, sh1mmer is more of a second-best option here
-    window.location.href = "https://xytrux.github.io/sh1mmer"
+    window.location.href = "https://chromebook-hacks.github.io/sh1mmer"
   } else if (waysToRoot.includes("87")) {
-    window.location.href = "https://xytrux.github.io/v87";
+    window.location.href = "https://chromebook-hacks.github.io/v87";
   } else if (waysToRoot.includes("91")) {
-    window.location.href = "https://xytrux.github.io/v91";
+    window.location.href = "https://chromebook-hacks.github.io/v91";
   } else if (waysToRoot.includes("101")) {
-    window.location.href = "https://xytrux.github.io/v101";
+    window.location.href = "https://chromebook-hacks.github.io/v101";
   } else {
     alert("No exploits are available for your platform :(");
   }
