@@ -104,4 +104,4 @@ Do note the following information:
 {: .notice--primary}
 
 Yoi're almost there! Continue to [Finalizing Setup](finalizing-setup) to finish! 
-{:. notice--success} 
+{: .notice--success} 
