@@ -25,7 +25,7 @@ Answer the prompts and setup will continue. The tab will close automatically onc
 ## Section IV - Next Steps
 
 It is highly recommended that if your school uses GoGuardian that you use [fakeguardian](fakeguardian).
-{:. notice--success
+{:. notice--primary} 
 
 If you don't have GoGuardian, continue to [Finalizing Setup](finalizing-setup)
 {: .notice--success}
