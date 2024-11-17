@@ -46,7 +46,7 @@ Now that we have the extension dumped, we can modify it to make it use a fake se
 
 ### Step 1 - Opening the Extension Code in Visual Studio Code
 
-1. Copy the `goguardian-dump` folder somewhere you can access it with Visual Studio Code (whether that's on your Chromebook via Linux or on [vscode.dev](https://vscode.dev)).
+1. Copy the `goguardian-dump` folder from your Downloads to somewhere you can access it with Visual Studio Code (whether that's on your Chromebook via Linux or on [vscode.dev](https://vscode.dev)).
 
 2. Open the folder in Visual Studio Code, If you're using [vscode.dev](https://vscode.dev), you can drag and drop the folder onto the page.
 
