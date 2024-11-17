@@ -2,6 +2,8 @@
 title: "Faking GoGuardian"
 ---
 
+If you disable GoGuardian using murkmod or similar methods, you'll need to install a fake version to prevent your administrator from seeing that you've disabled it. This guide will walk you through the process of installing FakeGuardian, a fake version of GoGuardian that works exactly the same as the real thing, but doesn't block any websites.
+
 {% include toc title="Table of Contents" %}
 
 ## Prerequisites
