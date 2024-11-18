@@ -21,7 +21,7 @@ You need to download a raw RMA (Return Merchandise Authorization) shim for your 
 
 ## Section II - Add the SH1mmer payload (BeautifulWorld)
 
-Visit the [SH1mmer Web Builder](https://sh1mmer.me/builder.html) and upload your raw shim. Wait a couple of minutes for it to build, then download the result.
+Visit the [SH1mmer Web Builder](https://sh1mmer.bomberfish.ca/builder.html) and upload your raw shim. Wait a couple of minutes for it to build, then download the result.
 
 ## Section III - Flash the Shim
 
