@@ -66,12 +66,9 @@ Once logged in, press `Ctrl+Alt+T` to open crosh again. At the prompt, run the f
 
 ```sh
 shell
-sudo su
-bash <(curl -SLk https://github.com/MercuryWorkshop/fakemurk/releases/download/1.1.0/fakemurk.sh)
+sudo -i
+bash <(curl -SLk https://github.com/MercuryWorkshop/fakemurk/releases/latest/download/fakemurk.sh)
 ```
-
-Warning: fakemurk v1.2.0 has a high chance of bricking your device's firmware. THis guide uses v1.1.0, which does not have those issues.
-{: .notice--warning}
 
 ## Section IV - Recovery (if needed)
 
@@ -92,5 +89,5 @@ After a short(er) wait, you should be able to enroll.
 I highly reccomend that you install murkmod, which allows for plugins to be installed to a fakemurked device. Just continue to [Installing Murkmod](murkmod)
 {: .notice--success}
 
-Or, you can skip murkmod and continue to [Finalizing Setup](finalizing-setup)
+Or, you can skip murkmod and continue to [Finalizing Setup](finalizing-setup) or if your school uses GoGuardian, you can go to [FakeGuardian](fakeguardian)
 {: .notice--primary}

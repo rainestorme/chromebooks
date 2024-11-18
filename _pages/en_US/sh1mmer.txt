@@ -17,10 +17,11 @@ If the shim does not boot on your target device, you may need to use BadRecovery
 You need to download a raw RMA (Return Merchandise Authorization) shim for your board, which you found earlier. There are only a few of these that have been publicly leaked, and this tool automatically filters out boards that are not supported. You can get a shim at the following sites:
 
 - https://dl.darkn.bio/
+- https://chrome100.dev (sometimes)
 
 ## Section II - Add the SH1mmer payload (BeautifulWorld)
 
-Visit the [SH1mmer Web Builder](https://sh1mmer.me/builder.html) and upload your raw shim. Wait a couple of minutes for it to build, then download the result.
+Visit the [SH1mmer Web Builder](https://sh1mmer.bomberfish.ca/builder.html) and upload your raw shim. Wait a couple of minutes for it to build, then download the result.
 
 ## Section III - Flash the Shim
 

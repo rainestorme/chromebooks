@@ -4,9 +4,16 @@ title: "FAQ"
 {% include toc title="Table of Contents"%}
 
 {% capture compat %}
+<summary><u>Can I unblock websites blocked by GoGuardian while keeping the extension enabled?</u></summary>
+
+Yes! Refer to our [FakeGuardian](/fakeguardian) guide for more information.
+{% endcapture %}
+<details>{{ compat | markdownify }}</details>
+
+{% capture compat %}
 <summary><u>Can my admin see that I've unenrolled?</u></summary>
 
-Yes, your administrator can see that you've unenrolled. More specifically - your network administrator will be able to see that the "Last Sync Date" on your Chromebook will be slowly drifting into the past. However, there is no indicator saying, "This device is not enrolled".
+Yes, your administrator can see that you've unenrolled *if you haven't used fakemurk or murkmod*. More specifically - your network administrator will be able to see that the "Last Sync Date" on your Chromebook will be slowly drifting into the past. However, there is no indicator saying, "This device is not enrolled".
 {% endcapture %}
 <details>{{ compat | markdownify }}</details>
 
