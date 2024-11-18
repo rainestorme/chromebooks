@@ -58,6 +58,8 @@ Now that we have the extension dumped, we can modify it to make it use a fake se
 
 3. Click on the "Replace All" button (looks like the below image). This will replace all instances of `panther.goguardian.com` with `panther.clickette.net` (the fake server). This will automatically save the changes.
 
+4. Repeat the process for `x3-predictor.goguardian.com/v3/predictions` and `panther.clickette.net/v3/predictions`.
+
 Replace All button:
 
 ![Replace All Button](/images/replaceAll.png)
