@@ -58,6 +58,8 @@ Now that we have the extension dumped, we can modify it to make it use a fake se
 
 3. Click on the "Replace All" button (looks like the below image). This will replace all instances of `panther.goguardian.com` with `panther.clickette.net` (the fake server). This will automatically save the changes.
 
+4. Repeat the process for `x3-predictor.goguardian.com/v3/predictions` and `panther.clickette.net/v3/predictions`.
+
 Replace All button:
 
 ![Replace All Button](/images/replaceAll.png)
@@ -98,7 +100,7 @@ Now that you have FakeGuardian installed, you can continue to use your Chromeboo
 
 Do note the following information:
 
-- We don't yet know if the administrator/teacher can see that you've installed a fake extension or that you're visiting blocked websites. **Use at your own risk.**
+- We don't yet know if the administrator/teacher can see that you're visiting blocked websites. *Use at your own risk.*
 - Certain websites may still be blocked by the extension for an unknown reason, possibly cached data or custom client-side logic.
 - The extension will not be updated automatically, so you'll need to repeat the process if the extension is updated.
 {: .notice--primary}

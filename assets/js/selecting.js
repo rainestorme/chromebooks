@@ -68,9 +68,9 @@ function redirect() {
   } else if (document.getElementById("curVersion").value >= 112) {
     window.location.href = "https://chromebook-hacks.github.io/badrecovery"
   }
-  if (document.getElementById(curVersion).value >= 125) {
+  if (document.getElementById("curVersion").value >= 125) {
     alert("Wait for ICARUS.")
-  } else if (waysToRoot.includes("SH1mmer") && document.getElementById(curVersion).value >= 125) {
+  } else if (waysToRoot.includes("SH1mmer") && document.getElementById("curVersion").value >= 125) {
     alert("No exploits are availiable for your version yet.");
   }
   if (waysToRoot.includes("80")) {
